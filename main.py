@@ -1,6 +1,5 @@
 from orders import OrderQueue
 
-
 class OrderProcessingSystem:
     def __init__(self):
         self.orders = OrderQueue()
@@ -10,6 +9,9 @@ class OrderProcessingSystem:
 
     def process_orders(self):
         self.orders.process_orders()
+    
+    def undo(self):
+        self.orders.undo()
 
 
 if __name__ == "__main__":
@@ -18,3 +20,5 @@ if __name__ == "__main__":
     system.add_order(102)
     system.add_order(103)
     system.process_orders()
+    system.undo()
+    system.orders.show_output()

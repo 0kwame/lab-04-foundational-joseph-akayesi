@@ -15,9 +15,7 @@ class OrderQueue:
             self.processed_orders.append(order)
 
         if self.processed_orders:
-            self.output = ", then ".join(str(order) for order in self.processed_orders)
-            # print(f"Processed {output}")
-            # self.orders.clear()
+            self.output = "Processed " + ", then ".join(str(order) for order in self.processed_orders)
 
     def undo(self):
         if self.processed_orders:
@@ -28,6 +26,19 @@ class OrderQueue:
                 self.output += f" → Undo {last_order} → No orders left after undo."
         else:
             self.output += " → No actions to undo."
+
+    def sort_orders(self):
+        self.output = ''
+
+        orders = list(self.orders) 
+        print(orders)
+        orders.sort()
+
+        if orders:
+            self.output = "Sort " + ", ".join(str(order) for order in orders) + " → Orders sorted"
+            return 
+        
+        self.output += " → No orders to sort."
                 
     def show_output(self):
-        print(f"Processed {self.output}") if self.output else print("No orders processed.")
+        print(f"{self.output}") if self.output else print("No orders processed or sorted.")

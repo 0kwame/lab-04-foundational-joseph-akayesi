@@ -38,6 +38,7 @@ This lab demonstrates how to create a simple order processing system using a **q
 ## Tools & Libraries Used
 
 - `collections.deque`: This is used to implement the queue because it provides efficient `append` and `pop` operations from both ends, which is ideal for a FIFO structure.
+- `json`: Loads a product catalogue from a JSON file into memory for product lookups.
 
 ---
 
@@ -46,3 +47,8 @@ This lab demonstrates how to create a simple order processing system using a **q
 - How to use Python's `deque` from the `collections` module to create an efficient FIFO queue.
 - The importance of queues as a foundational data structure in building real-time order processing systems.
 - How simple data structures can act as the backbone for larger, more complex systems.
+- How to model a product catalogue as a simple in-memory database for indexing and searching.
+- How Python dictionaries function as hash maps, enabling fast O(1) product lookups.
+- How to use typings like `Dict` to create a clear interface for a product catalogue.
+- How to implement a simple database abstraction layer using the repository pattern to handle basic data access operations for a table.
+- How to Use Private Attributes and Methods in Python’s Object-Oriented Programming

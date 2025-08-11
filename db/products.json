@@ -1,0 +1,115 @@
+{
+  "product_1": {
+    "id": "product_1",
+    "name": "Wireless Bluetooth Headphones",
+    "description": "High-quality over-ear Bluetooth headphones with noise cancellation and 20-hour battery life.",
+    "price": 89.99,
+    "category": "Electronics",
+    "image": "https://example.com/images/headphones.jpg",
+    "stock": 25,
+    "rating": 4.5,
+    "reviews": ["Great sound quality!", "Very comfortable to wear."]
+  },
+  "product_2": {
+    "id": "product_2",
+    "name": "Smart LED Desk Lamp",
+    "description": "Adjustable LED desk lamp with touch control and USB charging port.",
+    "price": 29.99,
+    "category": "Home & Office",
+    "image": "https://example.com/images/desk_lamp.jpg",
+    "stock": 40,
+    "rating": 4.2,
+    "reviews": ["Perfect for late-night work.", "Stylish and functional."]
+  },
+  "product_3": {
+    "id": "product_3",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+    "price": 19.99,
+    "category": "Sports & Outdoors",
+    "image": "https://example.com/images/water_bottle.jpg",
+    "stock": 60,
+    "rating": 4.8,
+    "reviews": ["Keeps my water ice cold!", "Durable and easy to clean."]
+  },
+  "product_4": {
+    "id": "product_4",
+    "name": "Organic Cotton T-Shirt",
+    "description": "Eco-friendly organic cotton t-shirt available in multiple colors and sizes.",
+    "price": 15.99,
+    "category": "Clothing",
+    "image": "https://example.com/images/tshirt.jpg",
+    "stock": 100,
+    "rating": 4.3,
+    "reviews": ["Very soft material.", "Fits perfectly."]
+  },
+  "product_5": {
+    "id": "product_5",
+    "name": "Ergonomic Office Chair",
+    "description": "Adjustable ergonomic office chair with lumbar support and breathable mesh back.",
+    "price": 149.99,
+    "category": "Furniture",
+    "image": "https://example.com/images/office_chair.jpg",
+    "stock": 15,
+    "rating": 4.6,
+    "reviews": [
+      "Great for long work hours.",
+      "Reduces back pain significantly."
+    ]
+  },
+  "product_6": {
+    "id": "product_6",
+    "name": "Portable Power Bank",
+    "description": "10,000mAh portable charger with fast charging support for smartphones and tablets.",
+    "price": 24.99,
+    "category": "Electronics",
+    "image": "https://example.com/images/power_bank.jpg",
+    "stock": 50,
+    "rating": 4.4,
+    "reviews": ["Charges my phone twice!", "Compact and lightweight."]
+  },
+  "product_7": {
+    "id": "product_7",
+    "name": "Non-Stick Frying Pan",
+    "description": "Durable non-stick frying pan with heat-resistant handle, perfect for everyday cooking.",
+    "price": 22.5,
+    "category": "Kitchen",
+    "image": "https://example.com/images/frying_pan.jpg",
+    "stock": 35,
+    "rating": 4.1,
+    "reviews": ["Easy to clean.", "Cooks evenly."]
+  },
+  "product_8": {
+    "id": "product_8",
+    "name": "Yoga Mat with Carry Strap",
+    "description": "Eco-friendly yoga mat with non-slip surface and free carrying strap.",
+    "price": 27.99,
+    "category": "Sports & Outdoors",
+    "image": "https://example.com/images/yoga_mat.jpg",
+    "stock": 45,
+    "rating": 4.7,
+    "reviews": ["Perfect thickness for comfort.", "Doesn’t slip on the floor."]
+  },
+  "product_9": {
+    "id": "product_9",
+    "name": "Mini Projector",
+    "description": "Portable mini projector with 1080p support, ideal for home theater setups.",
+    "price": 129.99,
+    "category": "Electronics",
+    "image": "https://example.com/images/mini_projector.jpg",
+    "stock": 20,
+    "rating": 4.5,
+    "reviews": ["Great picture quality!", "Perfect for movie nights."]
+  },
+  "product_10": {
+    "id": "product_10",
+    "name": "Gaming Mouse",
+    "description": "RGB gaming mouse with adjustable DPI settings and ergonomic grip.",
+    "price": 34.99,
+    "category": "Gaming",
+    "image": "https://example.com/images/gaming_mouse.jpg",
+    "stock": 55,
+    "rating": 4.6,
+    "reviews": ["Responsive and comfortable.", "RGB lights look amazing."]
+  }
+}

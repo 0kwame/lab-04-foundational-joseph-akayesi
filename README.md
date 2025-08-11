@@ -50,3 +50,4 @@ This lab demonstrates how to create a simple order processing system using a **q
 - How to model a product catalogue as a simple in-memory database for indexing and searching.
 - How Python dictionaries function as hash maps, enabling fast O(1) product lookups.
 - How to use typings like `Dict` to create a clear interface for a product catalogue.
+- How to implement a simple database abstraction layer using the repository pattern to handle basic data access operations for a table.

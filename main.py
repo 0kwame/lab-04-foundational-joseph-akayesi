@@ -1,8 +1,10 @@
 from orders import OrderQueue
+from repository.products import ProductsRepository
 
 class OrderProcessingSystem:
     def __init__(self):
         self.orders = OrderQueue()
+        self.products_repository = ProductsRepository()
 
     def add_order(self, order):
         self.orders.add_order(order)
@@ -22,3 +24,4 @@ if __name__ == "__main__":
     system.process_orders()
     system.undo()
     system.orders.show_output()
+    product_1 = system.products_repository.find_product('product_1')

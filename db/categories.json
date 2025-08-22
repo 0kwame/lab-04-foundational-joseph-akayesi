@@ -1,0 +1,22 @@
+{
+  "Electronics": {
+    "Laptops": {
+      "Gaming": {},
+      "Business": {}
+    },
+    "Phones": {
+      "Android": {},
+      "iPhone": {}
+    }
+  },
+  "Home Appliances": {
+    "Kitchen": {
+      "Blenders": {},
+      "Microwaves": {}
+    },
+    "Cleaning": {
+      "Vacuum": {},
+      "Mops": {}
+    }
+  }
+}

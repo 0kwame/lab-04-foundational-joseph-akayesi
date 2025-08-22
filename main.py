@@ -1,10 +1,11 @@
 from orders import OrderQueue, BubbleSort
-from repository.products import ProductsRepository
+from repository import ProductsRepository, CategoriesRepository
 
 class OrderProcessingSystem:
     def __init__(self):
         self.queue = OrderQueue()
         self.products_repository = ProductsRepository()
+        self.categories_repository = CategoriesRepository()
         self.bubble_sort = BubbleSort()
 
     def add_order(self, order):
@@ -33,3 +34,5 @@ if __name__ == "__main__":
 
     # system.queue.sort_orders() 
     system.queue.show_output()
+
+    system.categories_repository.print_categories()

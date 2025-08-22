@@ -53,3 +53,4 @@ This lab demonstrates how to create a simple order processing system using a **q
 - How to implement a simple database abstraction layer using the repository pattern to handle basic data access operations for a table.
 - How to Use Private Attributes and Methods in Python’s Object-Oriented Programming
 - How to Implement the Bubble Sort Algorithm in Python to Sort a List of Items
+- How to use the `isinstance`s function to verify whether an object is an instance of a given class.

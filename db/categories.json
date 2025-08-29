@@ -1,0 +1,54 @@
+{
+  "Electronics": {
+    "Audio": {
+      "Headphones": {}
+    },
+    "Accessories": {
+      "Power Banks": {}
+    },
+    "Video": {
+      "Projectors": {}
+    },
+    "Laptops": {
+      "Gaming": {},
+      "Business": {}
+    },
+    "Phones": {
+      "Android": {},
+      "iPhone": {}
+    }
+  },
+  "Home & Office": {
+    "Lighting": {
+      "Desk Lamps": {}
+    },
+    "Furniture": {
+      "Office": {
+        "Chairs": {}
+      }
+    }
+  },
+  "Sports & Outdoors": {
+    "Accessories": {
+      "Water Bottles": {}
+    },
+    "Fitness": {
+      "Yoga": {}
+    }
+  },
+  "Clothing": {
+    "Men": {
+      "T-Shirts": {}
+    }
+  },
+  "Kitchen": {
+    "Cookware": {
+      "Pans": {}
+    }
+  },
+  "Gaming": {
+    "Accessories": {
+      "Mice": {}
+    }
+  }
+}
